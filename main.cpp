@@ -37,18 +37,13 @@ int main()
     {
         ::solution1();
     }
-    catch(std::runtime_error const& exp)
-    {
-        std::cout << exp.what() << std::endl;
-    }
+    catch(std::runtime_error const& exp) {}
 
     try
     {
         ::solution2();
     }
-    catch(std::runtime_error const& exp)
-    {
-        std::cout << exp.what() << std::endl;
-    }
+    catch(std::runtime_error const& exp) {}
+
     return 0;
 }
