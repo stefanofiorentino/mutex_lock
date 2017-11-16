@@ -29,7 +29,7 @@ namespace mutex_lock
         }
     }
 
-    ///
+    /// This is a demo class, std::lock_guard is the very standard way to do it.
     class Lock
     {
     public:
